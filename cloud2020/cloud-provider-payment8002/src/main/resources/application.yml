@@ -9,9 +9,13 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.ibm.db2.jcc.DB2Driver          # mysql驱动包
-    url: jdbc:db2://127.0.0.1:50000/sample
-    username: db2inst1
-    password: qwer1234
+    #url: jdbc:db2://127.0.0.1:50000/sample
+    #username: db2inst1
+    #password: qwer1234
+
+    url: jdbc:db2://127.0.0.1:50000/budget05
+    username: ADMINISTRATOR
+    password: cui
 
 
 
